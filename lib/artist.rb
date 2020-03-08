@@ -13,6 +13,7 @@ class Artist
   
   def songs=(song)
     @songs = song
+    song.artist = song
   
   def songs
     @songs
